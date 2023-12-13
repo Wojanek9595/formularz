@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<header>
+			<h1>Formularz zgloszeniowy do druzyny pilki noznej</h1>
+		</header>
+		<main>
+			<form>
+				<p><label><input type=text list=imie require>Imie</label></p>
+				<p><label><input type=text list=drugie_imie>Drugie imie</label></p>
+				<p><label><input type=text list=nazwisko>Nazwisko</label></p>
+				<h2>Podaj swoją płeć</h2>
+				<p><label><input type="radio" list="Mężczyzna">Mężczyzna</label></p>
+				<p><label><input type="radio" list="Kobieta">Kobieta</label></p>
+				<h2>Lista zainteresowań</h2>
+				<p><label><input type=checkbox list=Sport>Sport</label></p>
+				<p><label><input type=checkbox list=Muzyka>Muzyka</label></p>
+				<p><label><input type=checkbox list=Motoryzacja>Motoryzacja</label></p>
+				<p><label><input type=checkbox list=Kuchnia>Kuchania</label></p>
+				<p><label><input type=checkbox list=Programowanie>Programowanie</label></p>
+				<h2>Do jakiej szkoly uczęszczasz?</h2>
+				<p><select name="szkoła">
+						<option>podstawowa</option>
+						<option>średnia</option>
+						<option>wyższa</option>
+					</select>
+				</p>
+				<h2>Jaką średnią ocen miałeś w roku 2020/2021?</h2>
+				<p><label><input type="radio" list=6,0-5,0>6,0-5,0</label></p>
+				<p><label><input type="radio" list=4,9-4,0>4,9-4,0</label></p>
+				<p><label><input type="radio" list=3,9-3,0>3,9-3,0</label></p>
+				<p><label><input type="radio" list=2,9-2,0>2,9-2,0</label></p>
+				<p><label><input type="radio" list=2,0>ponizej 2,0</label></p>
+				<h2>Napisz cos o sobie</h2>
+				<textarea id="opis"></textarea>
+				<button>Wyślij</button>
+			</form>
+		</main>
+	</body>
+</html>
